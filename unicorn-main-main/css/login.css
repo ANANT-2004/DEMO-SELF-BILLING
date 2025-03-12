@@ -1,0 +1,79 @@
+@import url('http://fonts.googleapis.com/css2?family=Barlow&display=swap');
+
+p {
+  font-family: 'Barlow', sans-serif;
+}
+
+input {
+  font-family: 'Barlow', sans-serif;
+}
+
+button {
+  font-family: 'Barlow', sans-serif;
+}
+
+textarea {
+  font-family: 'Barlow', sans-serif;
+}
+
+.login {
+  display: flex;
+  flex-direction: column;
+  width: 19rem;
+  align-items: center;
+  height: 23rem;
+  justify-content: space-evenly;
+  /* border: 1px solid #c8c8c8; */
+  background: #fbfbfb;
+  border-radius: 3px;
+  box-shadow: 0px 0px 35px #c3c3c3;
+}
+
+.loginMain {
+  width: 100%;
+  height: 100vh;
+  justify-content: center;
+  display: flex;
+  align-items: center;
+}
+
+.login>p {
+  font-size: 2.3rem;
+  margin: 0;
+}
+
+.inputs {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 5rem;
+}
+
+.inputs>input {
+  width: 14rem;
+  border-top: none;
+  border-left: none;
+  border-right: none;
+  border-bottom: 1px solid black;
+  font-size: 1rem;
+  outline: none;
+}
+
+.loginBtn {
+  width: 14rem;
+  padding: 0.7rem;
+  border: none;
+  background: #00b300;
+  color: white;
+  border-radius: 34px;
+  font-size: 0.9rem;
+  outline: none;
+  cursor: pointer;
+}
+
+.sign_link {
+  outline: none;
+  text-decoration: none;
+  color: blue;
+  cursor: pointer;
+}
